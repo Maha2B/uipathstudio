@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FFzyJ7hn7kO12idNUBMpCw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://rpachallenge.com/" DesignTimeRectangle="484, 192, 951, 440" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;app-root&amp;gt;div&amp;gt;app-rpa1&amp;gt;div&amp;gt;div' idx='2' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='inputFields col s6 m6 l6' tag='DIV' aaname='' check:innerText='Phone Number&amp;#xD;&amp;#xA;Address&amp;#xD;&amp;#xA;Role in Company&amp;#xD;&amp;#xA;First Name&amp;#xD;&amp;#xA;Email&amp;#xD;&amp;#xA;Last Name&amp;#xD;&amp;#xA;Company Name' /&gt;" Guid="b1fc1d4a-b52f-41ac-ad6c-9318df3e6085" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rpa Challenge' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="034af4998c3a2a325e44ea574477ab42.png" xmlns="">0KmHDER_W3Ei2oJgLCZI-nA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

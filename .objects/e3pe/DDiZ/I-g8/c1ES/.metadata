@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Take Screenshot 'Secure Area'",
+  "Type": "Element",
+  "Id": "c1ESLbbgqEK_yygkBohCIw",
+  "Reference": "uMDviFUqG02qbO4SxzC01Q/c1ESLbbgqEK_yygkBohCIw",
+  "ParentRef": "uMDviFUqG02qbO4SxzC01Q/I-g82-N1YE-Lf_LU-ecNxw",
+  "Created": "2024-02-21T13:59:06.024842Z",
+  "Updated": "2024-02-21T13:59:06.024842Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

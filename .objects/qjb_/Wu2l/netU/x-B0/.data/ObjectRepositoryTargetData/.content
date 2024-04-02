@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="M1wMIe89tUGwWKUdCMnMSw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.google.com/search?q=uipath+academy&amp;sca_esv=933bea1e6b916c89&amp;rlz=1C1PRFI_enTN1092TN1092&amp;source=lnms&amp;sa=X&amp;ved=2ahUKEwih1pTrg-KEAxWPUaQEHZ7NCX8Q0pQJegQIAxAC&amp;biw=1920&amp;bih=911&amp;dpr=1" CvElementArea="216, 215, 77, 44" CvTextArea="231, 229, 46, 14" CvTextArgument="Videos" CvType="Button" DesignTimeRectangle="233, 229, 43, 17" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='bqHHPb' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='bqHHPb' tag='SPAN' type='' class='FMKtTb UqcIvb' aaname='Vidéos' check:innerText='Vidéos' /&gt;" Guid="a2ae74c9-4633-4f80-834d-8f1de8f3d85a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='uipath academy - Recherche Google' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="90195407029fece6d8268b9d49da7dc6.png" xmlns="">0Aiqlt5o_fkyK3PcgrrKaeQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

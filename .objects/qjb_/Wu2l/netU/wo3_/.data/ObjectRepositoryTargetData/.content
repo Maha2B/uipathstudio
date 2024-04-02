@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_ESVTS-Q2UuwwueBeYrEig" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="8, 129, 1920, 911" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;ctrl name='Nouvel onglet' role='document' /&gt;&lt;ctrl idx='2' role='document' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Nouvel onglet' role='document' /&gt;&lt;ctrl automationid='' role='document' check:text='chrome-untrusted://new-tab-page/one-google-bar?paramsencoded=' /&gt;" Guid="851508da-e0fa-4ac2-9da5-993b19280946" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Nouvel onglet - Google Chrome' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="826, 288, 281, 99" CvTextArgument="Google" CvType="Text" DesignTimeRectangle="826, 289, 281, 98" ElementType="Text" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CvTextArea="739, 438, 400, 15" CvTextArgument="Effectuez une recherche sur Google ou saisissez une URL" CvType="Text" DesignTimeRectangle="687, 423, 562, 44" ElementType="DropDown" FullSelectorArgument="&lt;ctrl name='Nouvel onglet' role='document' /&gt;&lt;ctrl name='Effectuez une recherche sur Google ou saisissez une URL' role='combo box' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Nouvel onglet' role='document' /&gt;&lt;ctrl name='Effectuez une recherche sur Google ou saisissez une URL' role='combo box' automationid='' /&gt;" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b7f867747f8ff4ab0831670782630033.png" xmlns="">0Jrol_mECpESdt0L4ELbo0w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,257 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="NSE_WEBSITE_AND_RETREIVE" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1208,3149" sap2010:WorkflowViewState.IdRef="NSE_WEBSITE_AND_RETREIVE_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Model</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>System.Numerics</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Java.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.AzureFormRecognizerV3</AssemblyReference>
+      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Presentations.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.GoogleVision.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Cryptography.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Amazon.Rekognition.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.IntelligentOCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Azure.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.HyperV.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Python.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Database.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Persistence.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.IPC.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Amazon.Scope.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Jira.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Amazon.Rekognition.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.DataService.Activities.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Cryptography</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Presentations.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Python</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="NSE_WEBSITE_AND_RETREIVE" sap:VirtualizedContainerService.HintSize="724,3084" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome NSE - National Stock Exchange of India Ltd" sap:VirtualizedContainerService.HintSize="682,3019" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="e601fe60-6449-42c1-b3a0-1edbfa647c34" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Faire" sap:VirtualizedContainerService.HintSize="648,2779" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="upowerdown" />
+              <Variable x:TypeArguments="x:String" Name="nifty" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NGetAttributeGeneric x:TypeArguments="x:String" Attribute="class" DisplayName="Get Attribute 'Get Attribute 'NIFTY 50 21,982.75''" sap:VirtualizedContainerService.HintSize="606,247" sap2010:WorkflowViewState.IdRef="NGetAttributeGeneric`1_1" Result="[upowerdown]" ScopeIdentifier="e601fe60-6449-42c1-b3a0-1edbfa647c34" Version="V3">
+              <uix:NGetAttributeGeneric.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.nseindia.com/" ContentHash="XgIdl-CnwUyt3y0dRJVFEA" CvElementArea="376, 368, 210, 81" CvType="InputBox" DesignTimeRectangle="375, 369, 210, 78" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl id='tabList_NIFTY50' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl id='tabList_NIFTY50' tag='A' type='' class='nav-item nav-link  active ' aaname='                                                              NIFTY 50                                 21,982.75                                                                   -163.90 (-0.74%)                                                                                       ' check:innerText='NIFTY 50&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;21,982.75&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;-163.90 (-0.74%)' /&gt;" Guid="dc68c5db-1f97-4bf8-8af4-b5cf3c7991d8" InformativeScreenshot="dec4b5370d99caa8ead7b9f41ba4bc3e.png" Reference="uMDviFUqG02qbO4SxzC01Q/uil6b831hEep-42PjO-VgA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='NSE - National Stock Exchange of India Ltd: Live Share/Stock Market News &amp;amp; Updates, Quotes- Nseindia.com' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+              </uix:NGetAttributeGeneric.Target>
+            </uix:NGetAttributeGeneric>
+            <uix:NGetText DisplayName="Get Text 'Get Text 'NIFTY 50''" sap:VirtualizedContainerService.HintSize="606,197" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="e601fe60-6449-42c1-b3a0-1edbfa647c34" TextString="[nifty]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.nseindia.com/" ContentHash="_UC9CDKPn0a6Cl2eg7JKGA" CvElementArea="376, 316, 210, 81" CvType="InputBox" DesignTimeRectangle="386, 325, 191, 20" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl id='NIFTY 50' tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl id='NIFTY 50' tag='P' type='' class='tb_name' /&gt;" Guid="e14ef49b-7817-49e6-aaaa-88088f016867" InformativeScreenshot="0e39397c4360eaae122abea410faf4e3.png" Reference="uMDviFUqG02qbO4SxzC01Q/XcFh-Us3kEWqqEGTSD96MQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='NSE - National Stock Exchange of India Ltd: Live Share/Stock Market News &amp;amp; Updates, Quotes- Nseindia.com' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="606,2270" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" WorkbookPath="C:\Users\maha\Downloads\DailyReport (1).xlsx">
+              <ueab:ExcelApplicationCard.Body>
+                <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Faire" sap:VirtualizedContainerService.HintSize="572,1976" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:Int32" Name="first" />
+                      <Variable x:TypeArguments="x:Int32" Name="last" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ueab:FindFirstLastDataRowX BlankRowsToSkip="1" ColumnName="Date" ConfigureLastRowAs="FirstEmptyRow" DisplayName="Find First/Last Data Row" FirstRowIndex="[first]" FirstRowOffset="0" HasHeaders="True" sap:VirtualizedContainerService.HintSize="530,348" sap2010:WorkflowViewState.IdRef="FindFirstLastDataRowX_1" LastRowIndex="[last]" LastRowOffset="0" Range="[Excel.Sheet(&quot;Sheet1&quot;)]" VisibleRowsOnly="False" />
+                    <If Condition="[last=0]" sap:VirtualizedContainerService.HintSize="530,468" sap2010:WorkflowViewState.IdRef="If_2">
+                      <If.Then>
+                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="496,190" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Assign sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_1">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:Int32">[last]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:Int32">2</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,100" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </If.Else>
+                    </If>
+                    <ueab:WriteCellX Cell="[Excel.Sheet(&quot;Sheet1&quot;).Cell(&quot;A&quot;+(last).ToString)]" DisplayName="Write Date" sap:VirtualizedContainerService.HintSize="530,199" sap2010:WorkflowViewState.IdRef="WriteCellX_1" Value="[now.ToString(&quot;dd-MM-yyyy&quot;)]" />
+                    <ueab:WriteCellX Cell="[Excel.Sheet(&quot;Sheet1&quot;).Cell(&quot;B&quot;+(last).ToString)]" DisplayName="Write Nifty50" sap:VirtualizedContainerService.HintSize="530,199" sap2010:WorkflowViewState.IdRef="WriteCellX_2" Value="[nifty]" />
+                    <If Condition="[upowerdown.ToUpper.Contains(&quot;GREEN&quot;)]" sap:VirtualizedContainerService.HintSize="530,697" sap2010:WorkflowViewState.IdRef="If_1">
+                      <If.Then>
+                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="496,267" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ueab:WriteCellX Cell="[Excel.Sheet(&quot;Sheet1&quot;).Cell(&quot;C&quot;+(last).ToString)]" DisplayName="Write indicator Green" sap:VirtualizedContainerService.HintSize="434,182" sap2010:WorkflowViewState.IdRef="WriteCellX_3" Value="[&quot;Up&quot;]">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </ueab:WriteCellX>
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="496,267" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ueab:WriteCellX Cell="[Excel.Sheet(&quot;Sheet1&quot;).Cell(&quot;C&quot;+(last+1).ToString)]" DisplayName="Write indicator Red" sap:VirtualizedContainerService.HintSize="434,182" sap2010:WorkflowViewState.IdRef="WriteCellX_4" Value="[&quot;down&quot;]">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </ueab:WriteCellX>
+                        </Sequence>
+                      </If.Else>
+                    </If>
+                  </Sequence>
+                </ActivityAction>
+              </ueab:ExcelApplicationCard.Body>
+            </ueab:ExcelApplicationCard>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" ContentHash="pvziIz_Y306sURUktfRC5g" IconBase64="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" InformativeScreenshot="49fd0a88ddbfa97b9a0b5025b7c33883.jpg" Reference="uMDviFUqG02qbO4SxzC01Q/uCLB5jyy4Uq77E7KxCHBwQ" Selector="&lt;html app='chrome.exe' title='NSE - National Stock Exchange of India Ltd: Live Share/Stock Market News &amp;amp; Updates, Quotes- Nseindia.com' /&gt;" Title="NSE - National Stock Exchange of India Ltd: Live Share/Stock Market News &amp; Updates, Quotes- Nseindia.com" Url="https://www.nseindia.com/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

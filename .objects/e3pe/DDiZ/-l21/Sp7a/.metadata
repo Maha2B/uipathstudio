@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Click 'Single'",
+  "Type": "Element",
+  "TaxonomyType": "RadioButton",
+  "Id": "Sp7aOlg4yU-wCm9LR9V--g",
+  "Reference": "uMDviFUqG02qbO4SxzC01Q/Sp7aOlg4yU-wCm9LR9V--g",
+  "ParentRef": "uMDviFUqG02qbO4SxzC01Q/-l21tO7bV0qWBg_tdtFeDg",
+  "Created": "2024-03-18T08:58:11.4571846Z",
+  "Updated": "2024-03-18T08:58:11.4571846Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

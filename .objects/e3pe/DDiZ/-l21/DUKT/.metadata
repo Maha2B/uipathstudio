@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Click 'Yes'",
+  "Type": "Element",
+  "TaxonomyType": "RadioButton",
+  "Id": "DUKTn_rppka-qdnghr8ElA",
+  "Reference": "uMDviFUqG02qbO4SxzC01Q/DUKTn_rppka-qdnghr8ElA",
+  "ParentRef": "uMDviFUqG02qbO4SxzC01Q/-l21tO7bV0qWBg_tdtFeDg",
+  "Created": "2024-03-18T09:11:49.8036498Z",
+  "Updated": "2024-03-18T09:11:49.8036498Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

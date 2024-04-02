@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Chrome Employee Information Form",
+  "Type": "Screen",
+  "TaxonomyType": "Screen",
+  "Id": "-l21tO7bV0qWBg_tdtFeDg",
+  "Reference": "uMDviFUqG02qbO4SxzC01Q/-l21tO7bV0qWBg_tdtFeDg",
+  "ParentRef": "uMDviFUqG02qbO4SxzC01Q/DDiZHRi71UCigB5Jv7SW5g",
+  "Created": "2024-03-18T08:13:50.1614445Z",
+  "Updated": "2024-03-18T08:13:50.1614445Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

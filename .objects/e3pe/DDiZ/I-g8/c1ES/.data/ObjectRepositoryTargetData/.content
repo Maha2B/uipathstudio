@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NfqaRigPkkSxAKhGilZBew" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://the-internet.herokuapp.com/secure" DesignTimeRectangle="23, 277, 922, 179" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl parentid='content' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='content' tag='DIV' type='' class='example' aaname='            ' check:innerText='Secure Area&amp;#xD;&amp;#xA;Welcome to the Secure Area. When you are done click logout below.&amp;#xD;&amp;#xA;Logout' /&gt;" Guid="cbc3c847-0a9b-4c87-b458-7794ac0b14f0" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="606ce8acaa66d000497b9e5d6c300fdc.png" xmlns="">00jW4a5flTEeR2a_RfgYMaQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TakeScreenshot</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

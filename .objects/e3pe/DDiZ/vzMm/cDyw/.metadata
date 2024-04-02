@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Type Into Employee Data",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "cDywwObwdUm9faoknx_CMA",
+  "Reference": "uMDviFUqG02qbO4SxzC01Q/cDywwObwdUm9faoknx_CMA",
+  "ParentRef": "uMDviFUqG02qbO4SxzC01Q/vzMmyLc9N0WQgogohZERMQ",
+  "Created": "2024-03-19T11:00:00.6301421Z",
+  "Updated": "2024-03-19T11:00:00.6301421Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

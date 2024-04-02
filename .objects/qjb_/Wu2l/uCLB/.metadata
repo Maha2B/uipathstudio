@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Chrome NSE - National Stock Exchange of India Ltd",
+  "Type": "Screen",
+  "TaxonomyType": "Screen",
+  "Id": "uCLB5jyy4Uq77E7KxCHBwQ",
+  "Reference": "uMDviFUqG02qbO4SxzC01Q/uCLB5jyy4Uq77E7KxCHBwQ",
+  "ParentRef": "uMDviFUqG02qbO4SxzC01Q/Wu2lnIBaz0i6Oe7CjLJ9yg",
+  "Created": "2024-03-15T08:09:24.9886001Z",
+  "Updated": "2024-03-15T08:09:24.9886001Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Click 'Vidéos'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "x-B0NSNFpkCNVsOBOqDv9g",
+  "Reference": "uMDviFUqG02qbO4SxzC01Q/x-B0NSNFpkCNVsOBOqDv9g",
+  "ParentRef": "uMDviFUqG02qbO4SxzC01Q/netUqxZQxU6rVD4xOgk8JA",
+  "Created": "2024-03-07T11:19:04.6270259Z",
+  "Updated": "2024-03-07T11:19:04.6270259Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

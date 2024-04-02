@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Click 'Envoyer une'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "ScOWoF3tl0Wv9FHDxW7clg",
+  "Reference": "uMDviFUqG02qbO4SxzC01Q/ScOWoF3tl0Wv9FHDxW7clg",
+  "ParentRef": "uMDviFUqG02qbO4SxzC01Q/-l21tO7bV0qWBg_tdtFeDg",
+  "Created": "2024-03-18T09:14:03.8811813Z",
+  "Updated": "2024-03-18T09:14:03.8811813Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

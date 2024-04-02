@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Invoice # 3 A(I).pdf",
+  "Type": "Screen",
+  "TaxonomyType": "Screen",
+  "Id": "JvXPsCYwyU-CPxhveHW5Yw",
+  "Reference": "uMDviFUqG02qbO4SxzC01Q/JvXPsCYwyU-CPxhveHW5Yw",
+  "ParentRef": "uMDviFUqG02qbO4SxzC01Q/DDiZHRi71UCigB5Jv7SW5g",
+  "Created": "2024-03-26T09:06:14.4360742Z",
+  "Updated": "2024-03-26T09:06:14.4360742Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

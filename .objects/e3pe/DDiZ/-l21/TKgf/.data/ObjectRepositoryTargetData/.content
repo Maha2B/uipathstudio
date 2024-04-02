@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="v5KvGsl5tkW-PBezqH3tSg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" CvElementArea="607, 786, 738, 37" CvType="InputBox" DesignTimeRectangle="613, 788, 730, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aria-labelledby='QuestionId_r4231d7f07c3a4279bb0a02dec748a6a5 QuestionInfo_r4231d*' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-labelledby='QuestionId_r4231d7f07c3a4279bb0a02dec748a6a5 QuestionInfo_r4231d*' tag='INPUT' type='' class='-ad-62' placeholder='Entrez votre réponse' aaname='' /&gt;" Guid="7f56c9be-50ca-493a-b248-3cdd100401a9" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Employee Information Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="031354dd92e87eee1fcaac5e9837e3f6.png" xmlns="">0Ema-kAi5HU-880hwqLzspg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

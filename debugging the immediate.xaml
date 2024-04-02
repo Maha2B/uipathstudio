@@ -1,0 +1,405 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="debugging_the_immediate" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1208,5867" sap2010:WorkflowViewState.IdRef="debugging_the_immediate_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Model</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>System.Security</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.Presentations.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Amazon.Rekognition.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.IntelligentOCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Amazon.Rekognition.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Database.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Azure.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Amazon.Scope.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Python.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.AzureFormRecognizerV3</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Cryptography.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.GoogleVision.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.DataService.Activities.Core</AssemblyReference>
+      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Java.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.HyperV.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Jira.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Persistence.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.IPC.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Cryptography</AssemblyReference>
+      <AssemblyReference>UiPath.Presentations.Activities.Design</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Python</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="debugging_the_immediate" sap:VirtualizedContainerService.HintSize="693,5802" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Name="dtusers" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="651,566" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" WorkbookPath="C:\Users\maha\Downloads\Copie de UsersDetails.xlsx">
+      <ueab:ExcelApplicationCard.Body>
+        <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Faire" sap:VirtualizedContainerService.HintSize="486,257" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ueab:ReadRangeX DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="444,192" sap2010:WorkflowViewState.IdRef="ReadRangeX_1" Range="[Excel.Sheet(&quot;Sheet1&quot;)]" SaveTo="[dtusers]" />
+          </Sequence>
+        </ActivityAction>
+      </ueab:ExcelApplicationCard.Body>
+    </ueab:ExcelApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Employee Information Form" sap:VirtualizedContainerService.HintSize="651,5171" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="c6ec4aca-7ee7-44a0-9542-1dd4ac43481c" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Faire" sap:VirtualizedContainerService.HintSize="617,4931" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dtusers]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="575,4864" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+              <ui:ForEachRow.Body>
+                <ActivityAction x:TypeArguments="sd:DataRow">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Corps" sap:VirtualizedContainerService.HintSize="541,4675" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:String" Name="firstname" />
+                      <Variable x:TypeArguments="x:String" Name="lastname" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="479,187" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+                      <ui:MultipleAssign.AssignOperations>
+                        <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+                          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
+                            <ui:AssignOperation.To>
+                              <OutArgument x:TypeArguments="x:String">[firstname]</OutArgument>
+                            </ui:AssignOperation.To>
+                            <ui:AssignOperation.Value>
+                              <InArgument x:TypeArguments="x:String">[CurrentRow("First Name").ToString]</InArgument>
+                            </ui:AssignOperation.Value>
+                          </ui:AssignOperation>
+                          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
+                            <ui:AssignOperation.To>
+                              <OutArgument x:TypeArguments="x:String">[lastname]</OutArgument>
+                            </ui:AssignOperation.To>
+                            <ui:AssignOperation.Value>
+                              <InArgument x:TypeArguments="x:String">[CurrentRow("Last Name").ToString]</InArgument>
+                            </ui:AssignOperation.Value>
+                          </ui:AssignOperation>
+                        </scg:List>
+                      </ui:MultipleAssign.AssignOperations>
+                    </ui:MultipleAssign>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Type Into 'INPUT'(1)'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="479,258" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="c6ec4aca-7ee7-44a0-9542-1dd4ac43481c" Text="[lastname]" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" ContentHash="-AEjAcEMF0-pQ-r4wyHHhQ" CvElementArea="607, 639, 739, 38" CvType="InputBox" DesignTimeRectangle="613, 642, 730, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aria-labelledby='QuestionId_rc6614962c0cb41659aac76f251ee632b QuestionInfo_rc6614*' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-labelledby='QuestionId_rc6614962c0cb41659aac76f251ee632b QuestionInfo_rc6614*' tag='INPUT' type='' class='-ad-62' placeholder='Entrez votre réponse' aaname='' /&gt;" Guid="57c7e726-b7bc-4934-99cc-d65c5d73425d" InformativeScreenshot="5bd60c886cf3638b5f2b90355e2a9dce.png" Reference="uMDviFUqG02qbO4SxzC01Q/pcH4eSGsQkGs9YrRDH0f9w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Employee Information Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Type Into 'INPUT'(3)'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="479,258" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="c6ec4aca-7ee7-44a0-9542-1dd4ac43481c" Text="[CurrentRow(&quot;Email&quot;).ToString]" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" ContentHash="v5KvGsl5tkW-PBezqH3tSg" CvElementArea="607, 786, 738, 37" CvType="InputBox" DesignTimeRectangle="613, 788, 730, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aria-labelledby='QuestionId_r4231d7f07c3a4279bb0a02dec748a6a5 QuestionInfo_r4231d*' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-labelledby='QuestionId_r4231d7f07c3a4279bb0a02dec748a6a5 QuestionInfo_r4231d*' tag='INPUT' type='' class='-ad-62' placeholder='Entrez votre réponse' aaname='' /&gt;" Guid="7f56c9be-50ca-493a-b248-3cdd100401a9" InformativeScreenshot="031354dd92e87eee1fcaac5e9837e3f6.png" Reference="uMDviFUqG02qbO4SxzC01Q/TKgfHrWl10W-KOnzv_MH6A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Employee Information Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Type Into 'INPUT'(4)'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="479,258" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="c6ec4aca-7ee7-44a0-9542-1dd4ac43481c" Text="[CurrentRow(&quot;Mobile Phone Number&quot;).ToString.Replace(&quot;-&quot;,&quot;&quot;)]" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" ContentHash="ld2Im4Za-UqJPjWl0CrFxA" CvElementArea="607, 931, 739, 38" CvType="InputBox" DesignTimeRectangle="613, 934, 730, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aria-labelledby='QuestionId_rf1bcd5b5bdc643be81c13e3d03a3945a QuestionInfo_rf1bcd*' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-labelledby='QuestionId_rf1bcd5b5bdc643be81c13e3d03a3945a QuestionInfo_rf1bcd*' tag='INPUT' type='' class='-ad-62' placeholder='La valeur doit être un nombre' aaname='' /&gt;" Guid="03878674-7625-4d16-ad88-5693934234dd" InformativeScreenshot="a399779fd7aac811bf425a67c07da199.png" Reference="uMDviFUqG02qbO4SxzC01Q/g1Yyu25_j0WoJbSrrROcYA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Employee Information Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Type Into 'INPUT'(5)'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="479,258" sap2010:WorkflowViewState.IdRef="NTypeInto_6" ScopeIdentifier="c6ec4aca-7ee7-44a0-9542-1dd4ac43481c" Text="[CurrentRow(&quot;City, State, Zip&quot;).ToString]" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" ContentHash="gXrD8LHMn0mg84ha99Ywcg" CvElementArea="606, 678, 740, 37" CvType="InputBox" DesignTimeRectangle="613, 680, 730, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aria-labelledby='QuestionId_r290c282268224d6a8e18d3d7fc9d7f20 QuestionInfo_r290c2*' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-labelledby='QuestionId_r290c282268224d6a8e18d3d7fc9d7f20 QuestionInfo_r290c2*' tag='INPUT' type='' class='-ad-62' placeholder='Entrez votre réponse' aaname='' /&gt;" Guid="e58bf2c3-2882-474a-80b8-128fe77df3c0" InformativeScreenshot="a101f7b7ebe7112191361c9a2fc8f779.png" Reference="uMDviFUqG02qbO4SxzC01Q/050uQY3KGEimxhPBZFq7UQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Employee Information Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Type Into 'INPUT'(6)'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="479,258" sap2010:WorkflowViewState.IdRef="NTypeInto_7" ScopeIdentifier="c6ec4aca-7ee7-44a0-9542-1dd4ac43481c" Text="[DateTime.Parse(CurrentRow(&quot;Birthday&quot;).ToString).ToShortDateString]" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" ContentHash="quBPHMc0z0W_WZioSU2q8A" CvElementArea="607, 624, 739, 38" CvType="InputBox" DesignTimeRectangle="613, 626, 730, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aria-labelledby='QuestionId_r9f78a5a6b8894040834da2cbce1baedd QuestionInfo_r9f78a*' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-labelledby='QuestionId_r9f78a5a6b8894040834da2cbce1baedd QuestionInfo_r9f78a*' tag='INPUT' type='' class='-ad-62' placeholder='Entrez votre réponse' aaname='' /&gt;" Guid="e0b2a5c3-b8e5-4a84-a1a0-e8a59b40eb8c" InformativeScreenshot="b9b197c352c91a18a7d85808cc63edb0.png" Reference="uMDviFUqG02qbO4SxzC01Q/pZYy5odDH02Ca2RbdLp0xw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Employee Information Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="479,1594" sap2010:WorkflowViewState.IdRef="IfElseIf_1">
+                      <ui:IfElseIf.ConditionBlocks>
+                        <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
+                          <ui:IfElseIfBlock BlockType="If" Condition="[CurrentRow(&quot;Civil Status&quot;).ToString.Contains(&quot;Single&quot;)]">
+                            <ui:IfElseIfBlock.Then>
+                              <Sequence DisplayName="Corps" sap:VirtualizedContainerService.HintSize="416,245" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Single'" sap:VirtualizedContainerService.HintSize="374,180" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c6ec4aca-7ee7-44a0-9542-1dd4ac43481c" Version="V3">
+                                  <uix:NClick.Target>
+                                    <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" ContentHash="vMW2ImrUEUeC3QSVN4Fa1Q" CvElementArea="612, 772, 25, 25" CvType="RadioButton" DesignTimeRectangle="613, 772, 24, 24" DesignTimeScaleFactor="1" ElementType="RadioButton" FullSelectorArgument="&lt;webctrl tag='INPUT' type='radio' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='radio' class='-hm-81' aaname='' /&gt;" Guid="91c9d5ea-de66-4c3c-bad1-1977d506da77" InformativeScreenshot="c3cd8f802f41b3aba69fd242d10d7a61.png" Reference="uMDviFUqG02qbO4SxzC01Q/Sp7aOlg4yU-wCm9LR9V--g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Employee Information Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                                      <uix:TargetAnchorable.Anchors>
+                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                          <uix:Target CvTextArea="644, 777, 40, 16" CvTextArgument="Single" CvType="Text" DesignTimeRectangle="645, 772, 38, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl id='QuestionChoiceOption1' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='QuestionChoiceOption1' tag='SPAN' type='' class='text-format-content css-84' aaname='Single' check:innerText='Single' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                        </scg:List>
+                                      </uix:TargetAnchorable.Anchors>
+                                    </uix:TargetAnchorable>
+                                  </uix:NClick.Target>
+                                </uix:NClick>
+                              </Sequence>
+                            </ui:IfElseIfBlock.Then>
+                          </ui:IfElseIfBlock>
+                          <ui:IfElseIfBlock BlockType="ElseIf" Condition="[CurrentRow(&quot;Civil Status&quot;).ToString.Contains(&quot;Married&quot;)]">
+                            <ui:IfElseIfBlock.Then>
+                              <Sequence DisplayName="Corps" sap:VirtualizedContainerService.HintSize="416,245" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Married'" sap:VirtualizedContainerService.HintSize="374,180" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c6ec4aca-7ee7-44a0-9542-1dd4ac43481c" Version="V3">
+                                  <uix:NClick.Target>
+                                    <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" ContentHash="DZEAf7GLCEWdMNzGB7ckzQ" CvElementArea="613, 821, 24, 24" CvType="RadioButton" DesignTimeRectangle="613, 821, 24, 24" DesignTimeScaleFactor="1" ElementType="RadioButton" FullSelectorArgument="&lt;webctrl idx='2' tag='INPUT' type='radio' /&gt;" FuzzySelectorArgument="&lt;webctrl class='-hm-81' tag='INPUT' type='radio' aaname='' /&gt;" Guid="2f07d1fd-cd31-4717-a2d5-b32b13f3ea52" InformativeScreenshot="f8fe73d2ad1f996daa4c9fff88a1fd7e.png" Reference="uMDviFUqG02qbO4SxzC01Q/86yt9PIfhUy7yxBVLOgThw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Employee Information Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                                      <uix:TargetAnchorable.Anchors>
+                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                          <uix:Target CvTextArea="644, 826, 50, 13" CvTextArgument="Married" CvType="Text" DesignTimeRectangle="645, 821, 48, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl id='QuestionChoiceOption2' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='QuestionChoiceOption2' tag='SPAN' type='' class='text-format-content css-84' aaname='Married' check:innerText='Married' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                        </scg:List>
+                                      </uix:TargetAnchorable.Anchors>
+                                    </uix:TargetAnchorable>
+                                  </uix:NClick.Target>
+                                </uix:NClick>
+                              </Sequence>
+                            </ui:IfElseIfBlock.Then>
+                          </ui:IfElseIfBlock>
+                          <ui:IfElseIfBlock BlockType="ElseIf" Condition="[CurrentRow(&quot;Civil Status&quot;).ToString.Contains(&quot;Divorced&quot;)]">
+                            <ui:IfElseIfBlock.Then>
+                              <Sequence DisplayName="Corps" sap:VirtualizedContainerService.HintSize="416,245" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Divorced'" sap:VirtualizedContainerService.HintSize="374,180" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c6ec4aca-7ee7-44a0-9542-1dd4ac43481c" Version="V3">
+                                  <uix:NClick.Target>
+                                    <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" ContentHash="wW7hBoo_2ESXGpbsW-2SLQ" CvElementArea="613, 670, 24, 24" CvType="RadioButton" DesignTimeRectangle="613, 670, 24, 24" DesignTimeScaleFactor="1" ElementType="RadioButton" FullSelectorArgument="&lt;webctrl idx='3' tag='INPUT' type='radio' /&gt;" FuzzySelectorArgument="&lt;webctrl class='-hm-81' tag='INPUT' type='radio' aaname='' /&gt;" Guid="2ae0f4f9-8c94-4037-aa41-e7124856f8e5" InformativeScreenshot="aa0800cd819f16b5ccb7da139b82077e.png" Reference="uMDviFUqG02qbO4SxzC01Q/AIx9QDbMuEKcPkTzvvLGgg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Employee Information Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                                      <uix:TargetAnchorable.Anchors>
+                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                          <uix:Target CvTextArea="644, 675, 57, 13" CvTextArgument="Divorced" CvType="Text" DesignTimeRectangle="645, 670, 55, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl id='QuestionChoiceOption3' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='QuestionChoiceOption3' tag='SPAN' type='' class='text-format-content css-84' aaname='Divorced' check:innerText='Divorced' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                        </scg:List>
+                                      </uix:TargetAnchorable.Anchors>
+                                    </uix:TargetAnchorable>
+                                  </uix:NClick.Target>
+                                </uix:NClick>
+                              </Sequence>
+                            </ui:IfElseIfBlock.Then>
+                          </ui:IfElseIfBlock>
+                          <ui:IfElseIfBlock BlockType="ElseIf" Condition="[CurrentRow(&quot;Civil Status&quot;).ToString.Contains(&quot;Widowed&quot;)]">
+                            <ui:IfElseIfBlock.Then>
+                              <Sequence DisplayName="Corps" sap:VirtualizedContainerService.HintSize="416,245" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Widowed'" sap:VirtualizedContainerService.HintSize="374,180" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c6ec4aca-7ee7-44a0-9542-1dd4ac43481c" Version="V3">
+                                  <uix:NClick.Target>
+                                    <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" ContentHash="1Dy_YYOUZUm2DpO0xdtXrA" CvElementArea="613, 719, 25, 25" CvType="RadioButton" DesignTimeRectangle="613, 719, 24, 24" DesignTimeScaleFactor="1" ElementType="RadioButton" FullSelectorArgument="&lt;webctrl idx='4' tag='INPUT' type='radio' /&gt;" FuzzySelectorArgument="&lt;webctrl class='-hm-81' tag='INPUT' type='radio' aaname='' /&gt;" Guid="49b95a6d-ed54-4711-a559-f62d1bd4d12e" InformativeScreenshot="cc3055c2b17774e039e264f4fc0cf8ab.png" Reference="uMDviFUqG02qbO4SxzC01Q/F3rf6RyyEkSnZIVtSPxD2g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Employee Information Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                                      <uix:TargetAnchorable.Anchors>
+                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                          <uix:Target CvTextArea="643, 724, 61, 13" CvTextArgument="Widowed" CvType="Text" DesignTimeRectangle="645, 719, 59, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl id='QuestionChoiceOption4' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='QuestionChoiceOption4' tag='SPAN' type='' class='text-format-content css-84' aaname='Widowed' check:innerText='Widowed' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                        </scg:List>
+                                      </uix:TargetAnchorable.Anchors>
+                                    </uix:TargetAnchorable>
+                                  </uix:NClick.Target>
+                                </uix:NClick>
+                              </Sequence>
+                            </ui:IfElseIfBlock.Then>
+                          </ui:IfElseIfBlock>
+                        </sc:BindingList>
+                      </ui:IfElseIf.ConditionBlocks>
+                    </ui:IfElseIf>
+                    <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="479,884" sap2010:WorkflowViewState.IdRef="IfElseIf_3">
+                      <ui:IfElseIf.ConditionBlocks>
+                        <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
+                          <ui:IfElseIfBlock BlockType="If" Condition="[CurrentRow(&quot;Driver's License&quot;).ToString.Contains(&quot;issued&quot;)]">
+                            <ui:IfElseIfBlock.Then>
+                              <Sequence DisplayName="Corps" sap:VirtualizedContainerService.HintSize="416,306" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Click 'Yes''" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="374,241" sap2010:WorkflowViewState.IdRef="NTypeInto_10" ScopeIdentifier="c6ec4aca-7ee7-44a0-9542-1dd4ac43481c" Version="V3">
+                                  <uix:NTypeInto.Target>
+                                    <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" ContentHash="XLNVV3UA80GJmMnJgvZazw" CvElementArea="613, 460, 25, 25" CvType="RadioButton" DesignTimeRectangle="613, 460, 24, 24" DesignTimeScaleFactor="1" ElementType="RadioButton" FullSelectorArgument="&lt;webctrl aria-labelledby='QuestionId_rd1419b00a10241d3aa32604f318e386b QuestionInfo_rd1419*' tag='INPUT' type='radio' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-labelledby='QuestionId_rd1419b00a10241d3aa32604f318e386b QuestionInfo_rd1419*' tag='INPUT' type='radio' class='-hm-81' aaname='' /&gt;" Guid="a7ac2b2a-ea62-4c58-a043-2057af6f112e" InformativeScreenshot="2af387a6e8d4b6b8c034e0ac29c55874.png" Reference="uMDviFUqG02qbO4SxzC01Q/DUKTn_rppka-qdnghr8ElA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Employee Information Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                                      <uix:TargetAnchorable.Anchors>
+                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                          <uix:Target CvTextArea="643, 465, 22, 13" CvTextArgument="Yes" CvType="Text" DesignTimeRectangle="645, 460, 20, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl id='QuestionChoiceOption5' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='QuestionChoiceOption5' tag='SPAN' type='' class='text-format-content css-84' aaname='Yes' check:innerText='Yes' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                        </scg:List>
+                                      </uix:TargetAnchorable.Anchors>
+                                    </uix:TargetAnchorable>
+                                  </uix:NTypeInto.Target>
+                                </uix:NTypeInto>
+                              </Sequence>
+                            </ui:IfElseIfBlock.Then>
+                          </ui:IfElseIfBlock>
+                          <ui:IfElseIfBlock BlockType="Else">
+                            <ui:IfElseIfBlock.Then>
+                              <Sequence DisplayName="Corps" sap:VirtualizedContainerService.HintSize="416,306" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Click 'No''" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="374,241" sap2010:WorkflowViewState.IdRef="NTypeInto_12" ScopeIdentifier="c6ec4aca-7ee7-44a0-9542-1dd4ac43481c" Version="V3">
+                                  <uix:NTypeInto.Target>
+                                    <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" ContentHash="GhH9OrATBk65JmSsrWB0uw" CvElementArea="612, 508, 25, 25" CvType="RadioButton" DesignTimeRectangle="613, 509, 24, 24" DesignTimeScaleFactor="1" ElementType="RadioButton" FullSelectorArgument="&lt;webctrl aria-labelledby='QuestionId_rd1419b00a10241d3aa32604f318e386b QuestionInfo_rd1419*' idx='2' tag='INPUT' type='radio' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-labelledby='QuestionId_rd1419b00a10241d3aa32604f318e386b QuestionInfo_rd1419*' class='-hm-81' tag='INPUT' type='radio' aaname='' /&gt;" Guid="c5ebadf0-2fbe-4ac3-9b5a-01c788ec48a1" InformativeScreenshot="ff2253189032305b9462d53f694a067b.png" Reference="uMDviFUqG02qbO4SxzC01Q/ZG0HpHaQf068arRrAzTcBw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Employee Information Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                                      <uix:TargetAnchorable.Anchors>
+                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                          <uix:Target CvTextArea="644, 514, 20, 13" CvTextArgument="No" CvType="Text" DesignTimeRectangle="645, 509, 19, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl id='QuestionChoiceOption6' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='QuestionChoiceOption6' tag='SPAN' type='' class='text-format-content css-84' aaname='No' check:innerText='No' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                        </scg:List>
+                                      </uix:TargetAnchorable.Anchors>
+                                    </uix:TargetAnchorable>
+                                  </uix:NTypeInto.Target>
+                                </uix:NTypeInto>
+                              </Sequence>
+                            </ui:IfElseIfBlock.Then>
+                          </ui:IfElseIfBlock>
+                        </sc:BindingList>
+                      </ui:IfElseIf.ConditionBlocks>
+                    </ui:IfElseIf>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Type Into 'INPUT'(7)'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="479,258" sap2010:WorkflowViewState.IdRef="NTypeInto_9" ScopeIdentifier="c6ec4aca-7ee7-44a0-9542-1dd4ac43481c" Text="[CurrentRow(&quot;Monthly Salary&quot;).ToString]" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" ContentHash="wU5dXIq4A02mv1BYqsKSwA" CvElementArea="608, 616, 738, 37" CvType="InputBox" DesignTimeRectangle="613, 618, 730, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aria-label='Texte à une seule ligne' aria-labelledby='QuestionId_re0b4a177340347a89ae6989631afaabf QuestionInfo_re0b4a*' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='Texte à une seule ligne' aria-labelledby='QuestionId_re0b4a177340347a89ae6989631afaabf QuestionInfo_re0b4a*' tag='INPUT' type='' class='-ad-62' placeholder='La valeur doit être un nombre' aaname='' /&gt;" Guid="65a26c15-9f0d-4975-a647-959c752874c2" InformativeScreenshot="50c634504cd38979f09d98519dc32ba6.png" Reference="uMDviFUqG02qbO4SxzC01Q/VVIvK3JyqkGeYRYZCvyxbw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Employee Information Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Click 'Envoyer''" sap:VirtualizedContainerService.HintSize="479,197" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c6ec4aca-7ee7-44a0-9542-1dd4ac43481c" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" ContentHash="X8voA3iIt0a1_8LYtfOX2Q" CvElementArea="592, 706, 95, 43" CvTextArea="612, 720, 54, 16" CvTextArgument="Envoyer" CvType="Button" DesignTimeRectangle="593, 707, 92, 40" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl class='css-215' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl class='css-215' tag='BUTTON' type='' aaname='Envoyer' check:innerText='Envoyer' /&gt;" Guid="6ef95af9-a7b0-4a9d-bd8a-aacb731a3d55" InformativeScreenshot="1155443eb8a5e0e5004117395ac25436.png" Reference="uMDviFUqG02qbO4SxzC01Q/5tQQPEhuUE6949n6HZR4qw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Employee Information Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Click 'Envoyer une''" sap:VirtualizedContainerService.HintSize="479,180" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c6ec4aca-7ee7-44a0-9542-1dd4ac43481c" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" ContentHash="Dzzc17opc0S-k9yiAbgsHw" CvTextArea="885, 615, 166, 16" CvTextArgument="Envoyer une autre reponse" CvType="Text" DesignTimeRectangle="885, 612, 166, 19" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Envoyer une autre réponse' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Envoyer une autre réponse' tag='SPAN' type='' class='' check:innerText='Envoyer une autre réponse' /&gt;" Guid="4c71982b-0f9e-4b4d-ad6c-c898ac913061" InformativeScreenshot="625cc0eba0c3db2a9c196b9c3cbbb552.png" Reference="uMDviFUqG02qbO4SxzC01Q/ScOWoF3tl0Wv9FHDxW7clg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Employee Information Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                  </Sequence>
+                </ActivityAction>
+              </ui:ForEachRow.Body>
+            </ui:ForEachRow>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" ContentHash="bAavF8OTPUCgNCpbq9M_rA" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADjSURBVDhPY4AB82MXBID4PRD/JwG/h2qHG4BN0X/Tw2f/Ky5b+19q9kIwBrFBYiA5qHYIQNcIwyAN/C2d/5lzCsAYxAaJgeQYmJvb3wPxf3yYpRWhGYZBLjE+eApsAFZN6JjR0gbDAJgL4IoOPHj4Hxk4LVoKl2N3coFrRvcCigGNBw/D+chYMDgMeyAiKwIZADME3SDp5AywBnSMYcCDDx/gBiHLMZpZoIQBDBPtBYoN4PUNgIcBCGM1AB/GZwDBhMRc14TbAGQA8icuLFJSSdgAmCApGKoVAoAC79EV4McF7wGS5hcjN4jnVwAAAABJRU5ErkJggg==" InformativeScreenshot="26d4fe8dd5aad8870a75453cc50a2829.jpg" Reference="uMDviFUqG02qbO4SxzC01Q/-l21tO7bV0qWBg_tdtFeDg" Selector="&lt;html app='chrome.exe' title='Employee Information Form' /&gt;" Title="Employee Information Form" Url="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

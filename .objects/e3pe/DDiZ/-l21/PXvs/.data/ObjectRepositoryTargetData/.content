@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6baXbVnjO06hJAqOi3zy4Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" CvTextArea="644, 534, 20, 13" CvTextArgument="No" CvType="Text" DesignTimeRectangle="645, 529, 19, 24" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl id='QuestionChoiceOption6' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='QuestionChoiceOption6' tag='SPAN' type='' class='text-format-content css-84' aaname='No' check:innerText='No' /&gt;" Guid="08371632-4fa8-4711-87db-3d05298a8c31" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Employee Information Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvElementArea="612, 528, 25, 25" CvType="RadioButton" DesignTimeRectangle="613, 529, 24, 24" ElementType="RadioButton" FullSelectorArgument="&lt;webctrl aria-labelledby='QuestionId_rd1419b00a10241d3aa32604f318e386b QuestionInfo_rd1419*' idx='2' tag='INPUT' type='radio' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-labelledby='QuestionId_rd1419b00a10241d3aa32604f318e386b QuestionInfo_rd1419*' class='-hm-81' tag='INPUT' type='radio' aaname='' /&gt;" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0ebdac240043441c3127107ededf879d.png" xmlns="">0-ITLDXEy50-J63j9o2pSSg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

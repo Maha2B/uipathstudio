@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="R8AYKj-5dkiGYePka14Oyw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CvTextArea="1410, 314, 71, 25" CvType="AnyWordGroup" DesignTimeRectangle="1410, 314, 71, 25" DesignTimeScaleFactor="1" ElementType="Text" Guid="9bf3ef4e-2ee7-426d-9bf5-2a16dc747db5" ScopeSelectorArgument="&lt;wnd app='foxit phantom.exe' cls='classFoxitPhantom' title='Invoice # 3 A(I).pdf - Foxit Phantom - [Invoice # 3 A(I).pdf]' /&gt;&lt;wnd cls='Afx:*' title='Invoice # 3 A(I).pdf' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="1672, 313, 100, 28" CvTextArgument="$799.80" CvType="Text" DesignTimeRectangle="1672, 313, 100, 28" ElementType="Text" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d549c388bcfa20a7cbb53e105805ed99.png" xmlns="">08XZaLcBE3EqUMVehy9HPEQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

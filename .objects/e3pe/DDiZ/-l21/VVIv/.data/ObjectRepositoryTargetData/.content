@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="wU5dXIq4A02mv1BYqsKSwA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" CvElementArea="608, 616, 738, 37" CvType="InputBox" DesignTimeRectangle="613, 618, 730, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aria-label='Texte à une seule ligne' aria-labelledby='QuestionId_re0b4a177340347a89ae6989631afaabf QuestionInfo_re0b4a*' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='Texte à une seule ligne' aria-labelledby='QuestionId_re0b4a177340347a89ae6989631afaabf QuestionInfo_re0b4a*' tag='INPUT' type='' class='-ad-62' placeholder='La valeur doit être un nombre' aaname='' /&gt;" Guid="65a26c15-9f0d-4975-a647-959c752874c2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Employee Information Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="50c634504cd38979f09d98519dc32ba6.png" xmlns="">0EKES-rfFDE2gjydv-71M9g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

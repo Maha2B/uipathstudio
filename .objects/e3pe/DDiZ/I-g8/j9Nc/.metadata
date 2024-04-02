@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Take Screenshot 'You logged'",
+  "Type": "Element",
+  "Id": "j9Nc6vrKXECKW4SutwIbyg",
+  "Reference": "uMDviFUqG02qbO4SxzC01Q/j9Nc6vrKXECKW4SutwIbyg",
+  "ParentRef": "uMDviFUqG02qbO4SxzC01Q/I-g82-N1YE-Lf_LU-ecNxw",
+  "Created": "2024-02-21T14:06:05.303102Z",
+  "Updated": "2024-02-21T14:06:05.303102Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

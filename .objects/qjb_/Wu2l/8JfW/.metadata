@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Automation Developer Professional Training",
+  "Type": "Screen",
+  "Id": "8JfWaB8TT02kNcKusPljGw",
+  "Reference": "uMDviFUqG02qbO4SxzC01Q/8JfWaB8TT02kNcKusPljGw",
+  "ParentRef": "uMDviFUqG02qbO4SxzC01Q/Wu2lnIBaz0i6Oe7CjLJ9yg",
+  "Created": "2024-03-26T10:21:29.7491658Z",
+  "Updated": "2024-03-26T10:21:29.7491658Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

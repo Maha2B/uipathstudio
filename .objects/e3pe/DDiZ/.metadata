@@ -1,0 +1,12 @@
+﻿{
+  "Name": "1.0.0",
+  "Type": "AppVersion",
+  "Id": "DDiZHRi71UCigB5Jv7SW5g",
+  "Reference": "uMDviFUqG02qbO4SxzC01Q/DDiZHRi71UCigB5Jv7SW5g",
+  "ParentRef": "uMDviFUqG02qbO4SxzC01Q/e3pef0GqxkWtQd-To-vpnQ",
+  "Created": "2024-02-21T08:01:54.2703592Z",
+  "Updated": "2024-02-21T08:01:54.2703592Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

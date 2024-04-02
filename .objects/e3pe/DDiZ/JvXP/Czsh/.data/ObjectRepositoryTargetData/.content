@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Ne2NEDt79UON_ZXMEFr3aw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CvTextArea="1672, 373, 100, 28" CvType="AnyWordGroup" DesignTimeRectangle="1672, 373, 100, 28" DesignTimeScaleFactor="1" ElementType="Text" Guid="00de1f20-8efd-480b-9105-407ce6dda7bd" ScopeSelectorArgument="&lt;wnd app='foxit phantom.exe' cls='classFoxitPhantom' title='Invoice # 3 A(I).pdf - Foxit Phantom - [Invoice # 3 A(I).pdf]' /&gt;&lt;wnd cls='Afx:*' title='Invoice # 3 A(I).pdf' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="5dfff3d493cd89949fd4ab173b5045aa.png" xmlns="">0DN4ebrkyuEa_mPxvCMaH6g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

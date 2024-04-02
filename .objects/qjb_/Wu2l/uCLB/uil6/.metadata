@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Get Attribute 'NIFTY 50 21,982.75'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "uil6b831hEep-42PjO-VgA",
+  "Reference": "uMDviFUqG02qbO4SxzC01Q/uil6b831hEep-42PjO-VgA",
+  "ParentRef": "uMDviFUqG02qbO4SxzC01Q/uCLB5jyy4Uq77E7KxCHBwQ",
+  "Created": "2024-03-15T08:14:11.1930272Z",
+  "Updated": "2024-03-15T08:14:11.1930272Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

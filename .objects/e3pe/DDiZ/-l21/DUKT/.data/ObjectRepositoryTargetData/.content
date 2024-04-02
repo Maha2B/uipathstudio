@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XLNVV3UA80GJmMnJgvZazw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" CvElementArea="613, 460, 25, 25" CvType="RadioButton" DesignTimeRectangle="613, 460, 24, 24" DesignTimeScaleFactor="1" ElementType="RadioButton" FullSelectorArgument="&lt;webctrl aria-labelledby='QuestionId_rd1419b00a10241d3aa32604f318e386b QuestionInfo_rd1419*' tag='INPUT' type='radio' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-labelledby='QuestionId_rd1419b00a10241d3aa32604f318e386b QuestionInfo_rd1419*' tag='INPUT' type='radio' class='-hm-81' aaname='' /&gt;" Guid="a7ac2b2a-ea62-4c58-a043-2057af6f112e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Employee Information Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="643, 465, 22, 13" CvTextArgument="Yes" CvType="Text" DesignTimeRectangle="645, 460, 20, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl id='QuestionChoiceOption5' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='QuestionChoiceOption5' tag='SPAN' type='' class='text-format-content css-84' aaname='Yes' check:innerText='Yes' /&gt;" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2af387a6e8d4b6b8c034e0ac29c55874.png" xmlns="">02-M8HnKiqUGLGbBIJVCK4A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

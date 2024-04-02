@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="uSIEeHyRuEWEK5gXgcAzIA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://rpachallenge.com/" DesignTimeRectangle="595, 215, 398, 46" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="[string.Format(&quot;&lt;webctrl tag='LABEL' aaname='{0}' /&gt;&lt;nav up='1' /&gt;&lt;webctrl tag='INPUT' /&gt;&quot;, ColumnName)]" Guid="dd53d7c7-e5d8-4618-9fac-6cec303570a3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAZIAAAAyCAYAAAB26V2gAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADUSURBVHhe7dexCQAxEAPB77+Ia/Uc2fHDpjOgGhZ9CwCBkACQCAkAiZAAkAgJAImQAJAICQCJkACQCAkAiZAAkAgJAImQAJAICQCJkACQCAkAiZAAkAgJAImQAJAICQCJkACQCAkAiZAAkAgJAImQAJAICQCJkACQCAkAiZAAkAgJAImQAJAICQCJkACQCAkAiZAAkAgJAImQAJAICQCJkACQCAkAiZAAkAgJAImQAJAICQCJkACQCAkAiZAAkAgJAMkLycyYmZn93uWRAJAICQDB7gGdiiPAuVOUFQAAAABJRU5ErkJggg==" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Rpa Challenge' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target DesignTimeRectangle="595, 195, 63, 17" ElementType="Text" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEMAAAAVCAYAAAAdHVOZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANISURBVFhH7ZXxb5pAFMf3//8RRCIpqXTrbDUYjIZFEpqtpLYuLDY1IyUlpcO54WKC0Xz3Dg49sattY38a3wTDcZzv3ee+7/EOpVYqYQgqYQgqYQgqYQgqYQgSYMTwXZ9+96T5DPGfhA+2FfsuvJ98kOu3D/cmxL9Xva0EGEPokk6/e9JQh1SzEfFhUcOWBEnpwFvyB0w71ry1ngUj9hyYbQNG20I/IAddGLCuuYfmEVyLzRkwz0aYsM1Nh7A+qpCqGnR6vnpXEIOh1TQoXY8/IRVgLMYurDSuCfs6wuTagnERZJMshjVEeEu5tXSKQ7ndz2hihvDSgn7agG468KbZ66mWMbxzM82V7cUdL/hEpp0woi8anWAdFpVQdE8JnNAGFNrIGUt5AueY7nseommIflOB1BwgSUKMPn2AdKDDcV2MHraNz2Do3wJYqgrrLn+4hpHcGFAqKoxzD+HYR7/N4sqQWjzDHza0igSl6cAfR/AvDagVDUarjjqDRPkMuyz33H0RPh9JUNt9ej9GSGDrigLjZp3bDhgeOlUh2VRsAzkMNq/A9DhhBmEYZH3nGWWis2B3FlTVQsASXq2JU8iNK3bSuRIMmlRaIoxqByOhzLwuwTqlw+BjIIR9KKPznW4JrvTeoeMTxOIdO6s++TQMFvARt6QWT2GQKUcmNFmCrNZh0ilG8/SxsLHHtYJBCnoq1B7Zf7WG5aLB/pHN54rO6KRFGIX/35jnyuOkcxUZyoGyvpjTKgZG/N2nYSQDNKQGBhsupxM6XcPIlfxiVqY+QaRT+i+AgSUvl16+hsaU7KYjGTQqw1fCSK4a5Jo+JtMYsXgJX7wdZZJZU2m5iLkdY4+cIHEYS1pDdWo/ZHMIyPI5aQbj0CajPq4NGEysXOh/c4CBRWCPbATcaYtxH41qoUxeACM9WJZrwEuamqmrk1OEBl6AQXZf2cjMNjXzYR0zO9HCKl0nDmy9UCbUyNg6WVahf+UVmHgwa5R8Dq6gLRgkr0snn29wOcGgRUBYXLKzXDPhmK8vE6bZrY36AeVKjVORZajUfEOh5wgwdmieIBEWFrVItr8Ye9GS4uZ9aF+iXDc/qpmeD+M/UAlDUAlDUAlDUAljJeAvEiQmY+W9A1QAAAAASUVORK5CYII=" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d962ec6d5726b12b381d579f07ce0680.png" xmlns="">d962ec6d5726b12b381d579f07ce0680.png</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData DefaultValue="*" Name="ColumnName" />
+    </scg:List>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

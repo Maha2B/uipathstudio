@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Chrome The Internet",
+  "Type": "Screen",
+  "TaxonomyType": "Screen",
+  "Id": "I-g82-N1YE-Lf_LU-ecNxw",
+  "Reference": "uMDviFUqG02qbO4SxzC01Q/I-g82-N1YE-Lf_LU-ecNxw",
+  "ParentRef": "uMDviFUqG02qbO4SxzC01Q/DDiZHRi71UCigB5Jv7SW5g",
+  "Created": "2024-02-21T13:40:02.2252538Z",
+  "Updated": "2024-03-05T08:30:53.7697691Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

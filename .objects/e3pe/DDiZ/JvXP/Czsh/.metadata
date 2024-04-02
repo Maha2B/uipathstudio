@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Get Text 'Tout groupe de mots'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "CzshRvHhIU-iDN4AoFq9lw",
+  "Reference": "uMDviFUqG02qbO4SxzC01Q/CzshRvHhIU-iDN4AoFq9lw",
+  "ParentRef": "uMDviFUqG02qbO4SxzC01Q/JvXPsCYwyU-CPxhveHW5Yw",
+  "Created": "2024-03-26T09:31:56.1559991Z",
+  "Updated": "2024-03-26T09:31:56.1559991Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

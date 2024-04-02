@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Dzzc17opc0S-k9yiAbgsHw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" CvTextArea="885, 615, 166, 16" CvTextArgument="Envoyer une autre reponse" CvType="Text" DesignTimeRectangle="885, 612, 166, 19" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Envoyer une autre réponse' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Envoyer une autre réponse' tag='SPAN' type='' class='' check:innerText='Envoyer une autre réponse' /&gt;" Guid="4c71982b-0f9e-4b4d-ad6c-c898ac913061" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Employee Information Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="625cc0eba0c3db2a9c196b9c3cbbb552.png" xmlns="">0lb9piunO60WqPoO7Wv-qHg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

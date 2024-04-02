@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Invoice # 3 A(I).pdf - Foxit Phantom - [Invoice #",
+  "Type": "Screen",
+  "TaxonomyType": "Screen",
+  "Id": "SgR_Ib1ql0uvh7kIQpBz9A",
+  "Reference": "uMDviFUqG02qbO4SxzC01Q/SgR_Ib1ql0uvh7kIQpBz9A",
+  "ParentRef": "uMDviFUqG02qbO4SxzC01Q/Wu2lnIBaz0i6Oe7CjLJ9yg",
+  "Created": "2024-03-26T09:05:53.5363354Z",
+  "Updated": "2024-03-26T09:05:53.5363354Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

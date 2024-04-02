@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XgIdl-CnwUyt3y0dRJVFEA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.nseindia.com/" CvElementArea="376, 368, 210, 81" CvType="InputBox" DesignTimeRectangle="375, 369, 210, 78" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl id='tabList_NIFTY50' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl id='tabList_NIFTY50' tag='A' type='' class='nav-item nav-link  active ' aaname='                                                              NIFTY 50                                 21,982.75                                                                   -163.90 (-0.74%)                                                                                       ' check:innerText='NIFTY 50&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;21,982.75&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;-163.90 (-0.74%)' /&gt;" Guid="dc68c5db-1f97-4bf8-8af4-b5cf3c7991d8" ScopeSelectorArgument="&lt;html app='chrome.exe' title='NSE - National Stock Exchange of India Ltd: Live Share/Stock Market News &amp;amp; Updates, Quotes- Nseindia.com' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="dec4b5370d99caa8ead7b9f41ba4bc3e.png" xmlns="">08kHnTDKxCkOA3upMYkkbjg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

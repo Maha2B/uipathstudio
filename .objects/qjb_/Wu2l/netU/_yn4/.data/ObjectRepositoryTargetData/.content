@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="L_nMcUxI_06tyE95MCHSxw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CvTextArea="739, 438, 400, 15" CvTextArgument="Effectuez une recherche sur Google ou saisissez une URL" CvType="Text" DesignTimeRectangle="687, 423, 562, 44" DesignTimeScaleFactor="1" ElementType="DropDown" FullSelectorArgument="&lt;ctrl name='Nouvel onglet' role='document' /&gt;&lt;ctrl name='Effectuez une recherche sur Google ou saisissez une URL' role='combo box' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Nouvel onglet' role='document' /&gt;&lt;ctrl name='Effectuez une recherche sur Google ou saisissez une URL' role='combo box' automationid='' /&gt;" Guid="159d46a0-05d5-4ffe-9876-3e6c15b5a332" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Nouvel onglet - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b6385b2b9136665c795649eb22f27afa.png" xmlns="">0NiGK5kVLrE6ge-zyjAE0TA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
